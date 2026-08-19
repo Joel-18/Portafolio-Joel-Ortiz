@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurante Ortiz</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <button onclick="mostrarSeccion('inicio')">Inicio</button>
+
+        <button onclick="toggleMenu()">Menú</button>
+
+        <button onclick="mostrarSeccion('nosotros')">Sobre Nosotros</button>
+
+        <button onclick="mostrarSeccion('contacto')">Contacto</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="seccion activa">
+        <div class="hero">
+          <div class="hero-contenido">
+            <h2>Restaurante Ortiz 🍽️</h2>
+            <p>Sabor dominicano que se siente en casa.</p>
+
+            <button onclick="mostrarSeccion('menu')">Ver nuestro menú</button>
+          </div>
+        </div>
+
+        <div class="caracteristicas">
+          <div class="caracteristica">
+            <span>🍽️</span>
+            <h3>Cocina Dominicana</h3>
+            <p>Platos tradicionales preparados con auténtico sabor criollo.</p>
+          </div>
+
+          <div class="caracteristica">
+            <span>🥘</span>
+            <h3>Ingredientes Frescos</h3>
+            <p>Seleccionamos ingredientes frescos para cada preparación.</p>
+          </div>
+
+          <div class="caracteristica">
+            <span>❤️</span>
+            <h3>Hecho con Cariño</h3>
+            <p>Cada plato está preparado pensando en nuestros clientes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="seccion activa">
+        <div class="titulo-menu">
+          <span>🍽️</span>
+
+          <h2>Nuestro Menú</h2>
+
+          <p>Descubre nuestros sabores favoritos</p>
+        </div>
+
+        <div id="productos" class="productos"></div>
+
+        <div class="carrito">
+          <h2>Tu Pedido</h2>
+
+          <div id="pedido"></div>
+
+          <div class="total">
+            <span>Total:</span>
+            <span id="total">RD$0</span>
+          </div>
+
+          <button class="vaciar" onclick="vaciarCarrito()">
+            Vaciar Carrito
+          </button>
+        </div>
+      </section>
+
+      <section id="nosotros" class="seccion">
+        <h2>Sobre Nosotros</h2>
+
+        <div class="nosotros-contenido">
+          <p>
+            En Restaurante Ortiz nos apasiona ofrecer deliciosos platos
+            inspirados en la cocina dominicana y preparados con ingredientes
+            seleccionados.
+          </p>
+
+          <p>
+            Nuestro objetivo es brindar una experiencia agradable, con comida
+            casera, buen servicio y sabores que te hagan sentir como en casa.
+          </p>
+        </div>
+      </section>
+
+      <section id="contacto" class="seccion">
+        <h2>Contacto</h2>
+
+        <div class="contacto">
+          <p>📍 Santo Domingo, República Dominicana</p>
+
+          <p>📞 829-276-1619</p>
+
+          <p>📧 contacto@restauranteortiz.com</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Restaurante Ortiz - Todos los derechos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

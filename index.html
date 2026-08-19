@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Portafolio | Joel Ortiz</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <a href="#inicio" class="logo"> Joel<span>Ortiz</span> </a>
+
+        <button class="menu-btn" id="menu-btn">☰</button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre-mi">Sobre mí</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="hero">
+        <div class="hero-content">
+          <p class="hero-small">Hola, soy</p>
+
+          <h1>Joel <span>Ortiz</span></h1>
+
+          <h2>Desarrollador Web Junior</h2>
+
+          <p class="hero-text">
+            Soy un joven apasionado con ganas de aprender y dar todo de mí. Me
+            gusta crear proyectos utilizando HTML, CSS y JavaScript.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#proyectos" class="btn primary"> Ver proyectos </a>
+
+            <a href="#contacto" class="btn secondary"> Contactarme </a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="code-window">
+            <div class="window-top">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+
+            <pre><code><span class="blue">const</span> developer = {
+  nombre: <span class="blue">"Joel Ortiz"</span>,
+  skills: [
+    <span class="blue">"HTML"</span>,
+    <span class="blue">"CSS"</span>,
+    <span class="blue">"JavaScript"</span>
+  ],
+  objetivo: <span class="blue">"Ser desarrollador"</span>
+};</code></pre>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre-mi" class="section">
+        <div class="section-title">
+          <p>Conóceme</p>
+          <h2>Sobre mí</h2>
+        </div>
+
+        <div class="about">
+          <div class="about-image">
+            <div class="about-box">
+              <span>JO</span>
+            </div>
+          </div>
+
+          <div class="about-content">
+            <h3>Aprendiendo y construyendo</h3>
+
+            <p>
+              Estoy aprendiendo desarrollo web y me gusta crear proyectos
+              prácticos para mejorar mis conocimientos y experiencia.
+            </p>
+
+            <p>
+              Actualmente estoy trabajando con HTML, CSS, JavaScript y otras
+              tecnologías relacionadas con el desarrollo web.
+            </p>
+
+            <div class="about-info">
+              <div>
+                <strong>Nombre</strong>
+                <span>Joel Ortiz</span>
+              </div>
+
+              <div>
+                <strong>Área</strong>
+                <span>Desarrollo Web</span>
+              </div>
+
+              <div>
+                <strong>Nivel</strong>
+                <span>Junior / En aprendizaje</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="habilidades" class="section skills-section">
+        <div class="section-title">
+          <p>Lo que estoy aprendiendo</p>
+          <h2>Habilidades</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon">HTML</div>
+
+            <h3>HTML</h3>
+
+            <p>Creación de estructuras y páginas web.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">CSS</div>
+
+            <h3>CSS</h3>
+
+            <p>Diseño, estilos, layouts y páginas responsive.</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-icon">JS</div>
+
+            <h3>JavaScript</h3>
+
+            <p>Interactividad, lógica y funcionalidades para páginas web.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section">
+        <div class="section-title">
+          <p>Mi trabajo</p>
+          <h2>Proyectos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image restaurant-image">
+              <div class="restaurant-preview">
+                <div class="preview-header">
+                  <span>Restaurante Ortiz</span>
+                  <span>MENÚ</span>
+                </div>
+
+                <div class="preview-content">
+                  <div class="food">🍗</div>
+
+                  <div class="food">🍚</div>
+
+                  <div class="food">🥘</div>
+
+                  <div class="food">🍖</div>
+
+                  <div class="food">🥗</div>
+
+                  <div class="food">🍝</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number"> PROYECTO 01 </span>
+
+              <h3>Restaurante Ortiz</h3>
+
+              <p>
+                Página web de un restaurante con menú, carrito de compras y
+                cálculo del total.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a href="./Restaurante-Ortiz/index.html" class="project-btn">
+                Ver proyecto →
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image calculator-image">
+              <div class="calculator-preview">
+                <div class="calculator-display">10,000</div>
+
+                <div class="calculator-buttons">
+                  <span>AC</span>
+                  <span>⌫</span>
+                  <span>%</span>
+                  <span>÷</span>
+
+                  <span>7</span>
+                  <span>8</span>
+                  <span>9</span>
+                  <span>×</span>
+
+                  <span>4</span>
+                  <span>5</span>
+                  <span>6</span>
+                  <span>−</span>
+
+                  <span>1</span>
+                  <span>2</span>
+                  <span>3</span>
+                  <span>+</span>
+
+                  <span>0</span>
+                  <span>.</span>
+                  <span>=</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-content">
+              <span class="project-number"> PROYECTO 02 </span>
+
+              <h3>Calculadora</h3>
+
+              <p>
+                Calculadora web desarrollada con HTML, CSS y JavaScript para
+                realizar operaciones matemáticas.
+              </p>
+
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+
+              <a href="./Calculadora/index.html" class="project-btn">
+                Ver proyecto →
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto" class="section contact-section">
+        <div class="section-title">
+          <p>¿Hablamos?</p>
+          <h2>Contacto</h2>
+        </div>
+
+        <div class="contact-box">
+          <div class="contact-content">
+            <h3>Trabajemos juntos</h3>
+
+            <p>
+              Estoy interesado en seguir aprendiendo y creciendo como
+              desarrollador web.
+            </p>
+
+            <a href="mailto:tuemail@example.com" class="btn">
+              Enviar mensaje
+            </a>
+          </div>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>✉</span>
+
+              <div>
+                <strong>Email</strong>
+                <p>joel.18.ortiz@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <span>💻</span>
+
+              <div>
+                <strong>GitHub</strong>
+                <p>Próximamente</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <p>© 2026 Joel Ortiz. Todos los derechos reservados.</p>
+
+        <p>Desarrollado con HTML, CSS y JavaScript.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
